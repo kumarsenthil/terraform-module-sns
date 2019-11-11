@@ -1,6 +1,8 @@
 provider "aws" {
   region = "{var.region}"
   version = "~> 2.7"
+  shared_credentials_file = "/Users/admin/.aws/credentials"
+  profile                 = "terraform"
 }
 
 locals {
