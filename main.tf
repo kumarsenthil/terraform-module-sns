@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 locals {
-  sns-topics = var.sns_topics
+  sns_topics = var.sns_topics
 }
 
 #Create SNS
