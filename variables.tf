@@ -6,5 +6,5 @@ variable "region" {
 
 variable "sns_topics" {
   description = "The map of map of SNS topic to create"
-  type        = map(map(string))
+  type        = list(map(string))
 }
