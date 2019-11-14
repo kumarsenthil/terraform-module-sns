@@ -1,4 +1,4 @@
 output "sns_topic" {
-    value = "${aws_sns_topic.aws_sns_topic.arn}"
+    value = "${aws_sns_topic.sns.arn}"
     description = "SNS Topic ARN"
 }
